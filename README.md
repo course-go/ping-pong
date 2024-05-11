@@ -3,4 +3,4 @@
 
 # Ping Pong
 
-This project is a implementation of a dummy API. This repository is intended for practicing deployments and it's automation.
+This project is an implementation of a dummy API. This repository is intended for practicing deployments and their automation.
