@@ -36,7 +36,8 @@ func main() {
 		}
 
 		slog.Debug("handled HTTP request")
-		w.Write(bytes)
+		w.Header().Set("Content-Type", "application/json")
+		_, _ = w.Write(bytes)
 	})
 
 	port := os.Getenv("PORT")
