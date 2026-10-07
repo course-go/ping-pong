@@ -16,7 +16,7 @@ const (
 type Response struct {
 	Message  string    `json:"message,omitempty"`
 	Instance string    `json:"instance,omitempty"`
-	Time     time.Time `json:"time,omitempty"`
+	Time     time.Time `json:"time,omitzero"`
 }
 
 func main() {
